@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.poggers.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "OverrideIllegalValue"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "OverrideIllegalValue"
+  ]
+}
